@@ -8,10 +8,10 @@ services:
     ports:
       - "3306:3306"
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: wordpress
-      MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
+      MYSQL_ROOT_PASSWORD: Cestlavie90
+      MYSQL_DATABASE: wpdb  
+      MYSQL_USER: creativebeef
+      MYSQL_PASSWORD: Cestlavie90
   redis:
     image: redis:latest
     restart: always
